@@ -1,0 +1,17 @@
+Package: area
+Type: Package
+Title: Package contains function of calculation of circle area
+Version: 0.1.0
+Author: Wu Honghao
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: To use this package, input the radius of the circle to area_circle(),and output would be the area of the circle    
+    note if the radius is not provided, the default radius=1
+Depends: R (>= 2.15)
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.1.2
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2021-12-10 10:43:27 UTC; lenovo
+Built: R 4.1.1; ; 2021-12-10 10:43:43 UTC; windows

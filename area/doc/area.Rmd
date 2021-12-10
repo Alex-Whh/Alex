@@ -1,0 +1,27 @@
+---
+title: "area"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{area}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+installation
+use the code below to install
+"code"
+library(devtools)
+install_github()
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+## Import library (area)
+library(area)
+##Input the radius of the circle which you wants to know the area of it, the function has default 1
+area_circle()
+```
