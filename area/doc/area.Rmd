@@ -6,12 +6,12 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
-installation
-use the code below to install
-"code"
-library(devtools)
-install_github()
-
+installation\
+use the code below to install\
+"code"\
+library(devtools)\
+install_github("Alex-Whh/area")\
+ 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
